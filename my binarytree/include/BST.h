@@ -13,4 +13,6 @@ public:
 	bt();
 	void add(int value);
 	bool contains(int value);
+	int min();
+	int max();
 };

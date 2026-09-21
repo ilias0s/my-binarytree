@@ -61,3 +61,32 @@ bool bt::contains(int value)
 	}
 	return false;
 }
+int bt::min()
+{
+	if (root == nullptr)
+	{
+		throw std::runtime_error("BST is empty !");
+	}
+	node* current = root;
+	while (current->left != nullptr)
+	{
+		current = current->left;
+	}
+	return current->value;
+
+}
+int bt::max()
+{
+	if (root == nullptr)
+	{
+		throw std::runtime_error("BST is empty !");
+	}
+	node* current = root;
+	while (current->right != nullptr)
+	{
+		current = current->right;
+	}
+	return current->value;
+
+}
+
