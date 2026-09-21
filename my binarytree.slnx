@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="my binarytree/my binarytree.vcxproj" />
+  <Project Path="my binarytree/my binarytree.vcxproj" Id="77d9022a-10c2-4b14-99de-e785f3219bd7" />
 </Solution>
